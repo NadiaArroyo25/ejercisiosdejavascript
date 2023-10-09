@@ -1,23 +1,20 @@
 
+    
+function imprimirPiramide(niveles) {
+    for (let i = 0; i <= niveles; i++) {
+        let fila = '* '.repeat(i)
+        console.log(fila)
+    }
 
-function renderpiramide(numero) {
-    for (let i = 1; i <= numero; i++) {
-        let espacio = ' '.repeat(numero - i);
-
-
-
-
-        let asteriscos = '*'.repeat(2 * i - 1);
-        console.log(espacio + asteriscos);
+        for (let i = niveles-1; i >= 0; i--) {
+           let fila = '* '.repeat(i)
+        
+        console.log(fila);
     }
 }
+imprimirPiramide(5);
 
-renderpiramide(5);
 
-for (i=1; 1<=navigator; i++){
-    var line = "*".repet(i);
-      function PrinLine
-}
 
 
 
