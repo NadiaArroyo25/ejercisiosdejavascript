@@ -1,4 +1,5 @@
 
+tengo-que-ver
 
 function imprimirPiramide(niveles) {
     
@@ -13,6 +14,7 @@ function imprimirPiramide(niveles) {
 }
 
 
+ main
 imprimirPiramide(5);
 
 
@@ -25,4 +27,5 @@ imprimirPiramide(5);
 
 
 
-
+ tengo-que-ver
+ main
