@@ -1,17 +1,20 @@
 
-    
-function imprimirPiramide(niveles) {
-    for (let i = 0; i <= niveles; i++) {
-        let fila = '* '.repeat(i)
-        console.log(fila)
-    }
+tengo-que-ver
 
-        for (let i = niveles-1; i >= 0; i--) {
-           let fila = '* '.repeat(i)
+function imprimirPiramide(niveles) {
+    
+    for (let i = 1; i <= niveles; i++) {
+        let fila = '';
         
+        for (let j = 1; j <= i; j++) {
+            fila += '* ';
+        }
         console.log(fila);
     }
 }
+
+
+ main
 imprimirPiramide(5);
 
 
@@ -24,3 +27,5 @@ imprimirPiramide(5);
 
 
 
+ tengo-que-ver
+ main
